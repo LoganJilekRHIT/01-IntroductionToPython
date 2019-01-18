@@ -80,11 +80,11 @@ for k in range(6):
 ###############################################################################
 # Example 2.  It shows how to speed up the animation.
 ###############################################################################
-window.tracer(100)  # Bigger numbers make the animation run faster
+window.tracer(10)  # Bigger numbers make the animation run faster
 
 another_turtle = rg.SimpleTurtle('triangle')
 another_turtle.pen = rg.Pen('magenta', 1)
-another_turtle.backward(50)
+another_turtle.backward(60)
 
 # The name k takes on the values 0, 1, 2, ... 499 as the loop runs
 for k in range(500):
