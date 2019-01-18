@@ -19,9 +19,9 @@ print(answer * 100)
 #   confirming that it prints 3200.  Then change the above _TODO_ to DONE.
 ###############################################################################
 import math
-m=math
+m = math
 ###############################################################################
-# TODO: 2.
+# Done: 2.
 #   Immediately below this _TODO_, write code that:
 #     - Computes 77 plus the cosine of 2.75.
 #         HINT: You will need to import the   math  module (library).
@@ -32,15 +32,15 @@ m=math
 n = 77 + m.cos(2.75)
 print(m.sqrt(n))
 ###############################################################################
-# TODO: 3.
+# Done: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
 #      the square root of ((41 * 88) + (4 * the cosine of 2))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+print((42 * 88) + (4 * m.cos(2)))
 ###############################################################################
-# TODO: 4.
+# Done: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
@@ -48,10 +48,11 @@ print(m.sqrt(n))
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(m.sqrt(2))
+print(2 ** 0.5)
 
 ###############################################################################
-# TODO: 5.
+# Done: 5.
 #   Every object has a TYPE and a VALUE.  For example,
 #   for the object that is computed by  math.sqrt(2):
 #      Its TYPE is float  (which is shorthand for "floating point number").
@@ -74,26 +75,38 @@ print(m.sqrt(n))
 #      2. Then write code of the form   print(type(BLAH)).
 #      3. THen RUN the code to LEARN its TYPE.
 
-#       "hello"
-#       'hello'
-#       'a b c'
-#       3 + 3
-#       "3" + "3"
-#       2 ** 100
-#       2.0 ** 100
-#       math.sin(8)
-#       math.sin
-#       print
-#       math
-#       'math'
+#       "hello" - string
+#       'hello' - string
+#       'a b c' - string
+#       3 + 3 - int
+#       "3" + "3" - string
+#       2 ** 100 - int
+#       2.0 ** 100 - float
+#       math.sin(8) - float
+#       math.sin - builtin_function_or_method
+#       print - builtin_function_or_method
+#       math - module
+#       'math' - string
 #
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
-
+print(type(3.14))
+print(type("hello"))
+print(type('hello'))
+print(type('a b c'))
+print(type(3+3))
+print(type("3" + "3"))
+print(type(2 ** 10))
+print(type(2.0 ** 10))
+print(type(math.sin(8)))
+print(type(math.sin))
+print(type(print))
+print(type(math))
+print(type('math'))
 ###############################################################################
 #
-# TODO: 6.
+# Done: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
