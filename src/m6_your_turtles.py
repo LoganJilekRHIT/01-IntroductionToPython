@@ -79,5 +79,4 @@ for k in range(5):
 
 
 
-
 window.close_on_mouse_click()
